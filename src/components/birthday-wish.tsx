@@ -97,7 +97,7 @@ export default function BirthdayWish () {
 
   return (
     // Main container
-    <div className="min-h-screen bg-gray-200 flex items-center justify-center p-4 my-auto">
+    <div className="min-h-screen bg-gray-200 flex items-center justify-center p-4 mx-auto my-auto">
       {/* Animated wrapper for the card */}
       <motion.div
         initial={{ scale: 0.9, opacity: 0 }}
