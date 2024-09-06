@@ -41,7 +41,7 @@ const confettiColors: string[] = [
   "#BB8FCE",
 ];
 
-export default function () {
+export default function BirthdayWish () {
   // state variables
   const [candlesLit, setCandlesLit] = useState<number>(0); // Number of lit candle
   const [balloonsPoppedCount, setBalloonsPoppedCount] = useState<number>(0); //Number of popped balloons
